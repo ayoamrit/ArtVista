@@ -25,10 +25,11 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 40px;
+    user-select: none;
 }
 
 /*Logo*/
-.navLogo{
+.navLogo, .footerLogo{
     font-style: italic;
     font-weight: bold;
     cursor: pointer;
@@ -123,4 +124,230 @@ body{
 }
 .exploreLink a:hover{
     background-color: #353839;
+}
+
+/*Styling scolling Images*/
+.scroller{
+    margin-top: 50px;
+    width: 100%;
+}
+.scroller_inner{
+    padding-block: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+.scroller_inner img{
+    width: 300px;
+    height: 350px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.scroller[data-animated="true"]{
+    overflow: hidden;
+}
+.scroller[data-animated="true"] .scroller_inner{
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll 40s linear infinite;
+}
+.scroller[animation-pause="true"]:hover .scroller_inner{
+    animation-play-state: paused;
+}
+
+@keyframes scroll{
+    to{
+        transform: translate(calc(-50% - 1rem));
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container video, .container img{
+    width: 250px;
+    height: 170px;
+}
+.container video{
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/*Scroller design ends*/
+/*Homepage design ends*/
+
+/*Styling explore seciton*/
+.exploreSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 150px 40px 40px 40px;
+}
+.exploreSectionHeading{
+    font-size: 2.6em;
+    font-weight: 500;
+}
+.exploreBackButton{
+    margin-top: 50px;
+}
+.exploreBackButton a{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: #f8f7f4;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.exploreSectionItems{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.item{
+    cursor: pointer;
+}
+.item img{
+    width: 430px;
+    height: 300px;
+    border: none;
+    border-radius: 20px;
+}
+.item img:hover{
+    opacity: 0.8;
+}
+.itemContent{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+}
+.itemAuthor{
+    display: flex;
+    gap: 0.5rem;
+}
+.itemAuthor img{
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50px;
+}
+/*Styling exploreSection ends*/
+
+/*styling deginerSection starts*/
+.designerSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #ffda79;
+    padding: 80px;
+    margin-top: 6rem;
+    font-size: 1.2em;
+    user-select: none;
+}
+.designerMargin{
+    max-width: 600px;
+    margin: auto;
+}
+.designerHeading{
+    font-size: 4em;
+    font-weight: 500;
+}
+.designerDescription{
+    margin-top: 10px;
+}
+.designerLinks{
+    margin: 80px 0;
+}
+._link1{
+    background-color: black;
+    color: white;
+    border: none;
+}
+._link2{
+    background-color: white;
+    color: black;
+}
+._link1, ._link2{
+    margin: 0 8px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+._link1:hover{
+    background-color: #353839;
+}
+._link2:hover{
+    color: #353839;
+}
+.designerFooter a{
+    color: black;
+}
+/*Desginer section ends*/
+
+/*styling footer starts*/
+footer{
+    max-width: 1280px;
+    margin: 100px auto;
+    padding-bottom: 50px;
+}
+/*Top footer*/
+.topFooter{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 500;
+}
+.footerLinks ul{
+    display: flex;
+}
+.footerLinks ul li{
+    padding: 0 20px;
+    list-style-type: none;
+}
+.footerLinks ul li a{
+    font-size: 0.85em;
+    text-decoration: none;
+    color: black;
+}
+.footerSocial{
+    display: flex;
+}
+.footerSocial a{
+    padding: 0 5px;
+    text-decoration: none;
+}
+.footerSocial a img{
+    cursor:pointer;
+    width: 25px;
+    height: 25px;
+}
+/*Top footer ends*/
+/*Bottom footer*/
+.bottomFooter{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 0.85em;
+    margin-top: 60px;
+}
+.leftSide ul, .rightSide ul{
+    display: flex;
+}
+.leftSide ul li, .rightSide ul li{
+    list-style-type: none;
+}
+.leftSide ul li a, .rightSide ul li a{
+    text-decoration: none;
+    color: #353839;
+    padding: 0 10px;
+    font-weight: 100;
 }
