@@ -1,0 +1,21 @@
+﻿@page
+@{
+    ViewData["Title"] = "Login | ArtVista";
+}
+
+<section class="login">
+
+    <div class="media">
+        <video autoplay loop muted><source src="https://cdn.dribbble.com/uploads/48226/original/b8bd4e4273cceae2889d9d259b04f732.mp4?1689028949"></video>
+    </div>
+    <div class="authContent">
+        <span class="auth-text">Sign in to ArtVista</span>
+        <form>
+            <input type="email" name="email" class="email field pad7 mar6" required placeholder="Email">
+            <input type="password" name="password" class="password field pad7 mar6" required placeholder="Password">
+            <button class="submit-button pad7 mar6">Sign In</button>
+        </form>
+        <span class="auth-prompt">Don't have an account? <a asp-page="/Signup">Sign Up</a></span>
+    </div>
+</section>
+
