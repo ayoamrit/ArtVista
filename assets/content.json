@@ -1,0 +1,142 @@
+[
+    {
+        "image": "./assets/items/1.jpg",
+        "author": "George P. Wilson",
+        "profession": "Artist",
+        "authorImage": "./assets/items/author/1.jpg",
+        "price": "19"
+    },
+    {
+        "image": "./assets/items/2.jpg",
+        "author": "Jordan Wilson",
+        "profession": "Typography",
+        "authorImage": "./assets/items/author/2.jpg",
+        "price": "21"
+    },
+    {
+        "image":"./assets/items/3.jpg",
+        "author": "Nebojsa Matkovic",
+        "profession": "Typography",
+        "authorImage": "./assets/items/author/3.jpg",
+        "price": "19"
+    },
+    {
+        "image": "./assets/items/4.png",
+        "author": "Alex Aperios",
+        "profession": "Typography",
+        "authorImage": "./assets/items/author/4.png",
+        "price": "16"
+    },
+    {
+        "image": "./assets/items/5.png",
+        "author": "Alex Aperios",
+        "profession": "Designer",
+        "authorImage": "./assets/items/author/4.png",
+        "price": "29"
+    },
+    {
+        "author": "Martin Schmetzer",
+        "image": "./assets/items/6.jpg",
+        "profession": "Typography",
+        "authorImage": "./assets/items/author/6.jpg",
+        "price": "21"
+    },
+    {
+        "author": "Ethan Fender",
+        "image": "./assets/items/7.jpg",
+        "profession": "Product Design",
+        "authorImage": "./assets/items/author/7.jpg",
+        "price": "21"
+    },
+    {
+        "author": "James Olstein",
+        "image": "./assets/items/8.png",
+        "profession": "Web Design",
+        "authorImage": "./assets/items/author/8.jpg",
+        "price": "21"
+    },
+    {
+        "author": "Ben Stafford",
+        "image": "./assets/items/9.jpg",
+        "profession": "Branding",
+        "authorImage": "./assets/items/author/9.png",
+        "price": "21"
+    },
+    {
+        "author": "Amrit Dhaliwal",
+        "image": "./assets/items/10.jpg",
+        "profession": "Artist",
+        "authorImage": "./assets/items/author/10.jpg",
+        "price": "21"
+    },
+    {
+        "author": "Zhivko Terziivanov",
+        "image": "./assets/items/11.png",
+        "profession": "Illustration",
+        "authorImage": "./assets/items/author/11.png",
+        "price": "21"
+    },
+    {
+        "author": "Britton Stipectic",
+        "image": "./assets/items/12.png",
+        "profession": "3D Animation",
+        "authorImage": "./assets/items/author/12.png",
+        "price": "21"
+    },
+    {
+        "author": "Desire Creative Agency",
+        "image": "./assets/items/13.png",
+        "profession": "Web Design",
+        "authorImage": "./assets/items/author/13.png",
+        "price": "21"
+    },
+    {
+        "author": "Jordan Smith",
+        "image": "./assets/items/14.png",
+        "profession": "Web Design",
+        "authorImage": "./assets/items/author/14.png",
+        "price": "21"
+    },
+    {
+        "author": "Justin Greene",
+        "image": "./assets/items/15.png",
+        "profession": "2D Artist",
+        "authorImage": "./assets/items/author/15.jpg",
+        "price": "21"
+    },
+    {
+        "author": "Maycon Prasniewksi",
+        "image": "./assets/items/16.png",
+        "profession": "Illustration",
+        "authorImage": "./assets/items/author/16.png",
+        "price": "21"
+    },
+    {
+        "author": "Gaspart",
+        "image": "./assets/items/17.png",
+        "profession": "Mobile",
+        "authorImage": "./assets/items/author/17.png",
+        "price": "21"
+    },
+    {
+        "author": "Pavlov Visuals",
+        "image": "./assets/items/18.png",
+        "profession": "2D Artist",
+        "authorImage": "./assets/items/author/18.jpg",
+        "price": "21"
+    },
+    {
+        "author": "Aaron Martinez",
+        "image": "./assets/items/19.jpg",
+        "profession": "3D Artist",
+        "authorImage": "./assets/items/author/19.jpg",
+        "price": "21"
+    },
+    {
+        "author": "Alan Defibaugh",
+        "image": "./assets/items/20.jpg",
+        "profession": "Illustration",
+        "authorImage": "./assets/items/author/20.jpg",
+        "price": "21"
+    }
+]
